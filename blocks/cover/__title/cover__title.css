@@ -7,14 +7,11 @@
   max-width: 560px;
   margin: 0 auto;
   padding: 0;
-  z-index: 3;
-  vertical-align: auto;
 }
-
 
 @media screen and (max-width: 767px) {
   .cover__title {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (767 - 320)));
+    line-height: calc(35px + (76 - 35) * ((100vw - 320px) / (767 - 320)));
   }
 }

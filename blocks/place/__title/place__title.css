@@ -7,7 +7,7 @@
   align-self: flex-end;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
@@ -16,8 +16,9 @@
 
 @media screen and (max-width: 767px) {
   .place__title {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (767 - 320)));
+    line-height: calc(35px + (76 - 35) * ((100vw - 320px) / (767 - 320)));
     margin-left: 16px;
+    margin-right: 16px;
   }
 }
