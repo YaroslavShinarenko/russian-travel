@@ -4,8 +4,6 @@
 
 @media screen and (max-width: 767px) {
   .footer__menu-item {
-    font-size: 16px;
-    line-height: 18px;
     margin-bottom: 32px;
     margin-right: 0;
   }

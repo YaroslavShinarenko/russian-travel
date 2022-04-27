@@ -13,13 +13,13 @@
   position: relative;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover {
     min-height: 640px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover {
     min-height: 480px;
     margin-top: 90px;
@@ -46,6 +46,6 @@
   right: 0;
 }
 
-.cover:hover {
+.cover:hover::before {
   opacity: 0.8;
 }
